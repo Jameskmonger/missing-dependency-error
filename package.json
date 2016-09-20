@@ -4,9 +4,9 @@
   "description": "Missing dependency error for TypeScript.",
   "main": "index.js",
   "files": [
-      "index.js"
+      "index.js", "index.d.ts"
   ],
-  "typings": "typings.d.ts",
+  "typings": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "alsatian \"test.js\""
