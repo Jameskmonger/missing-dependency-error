@@ -1,0 +1,34 @@
+{
+  "name": "missing-dependency-error",
+  "version": "1.0.0",
+  "description": "Missing dependency error for TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "alsatian \"test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jameskmonger/missing-dependency-error.git"
+  },
+  "keywords": [
+    "missing",
+    "dependency",
+    "error",
+    "typescript",
+    "javascript"
+  ],
+  "author": {
+    "name": "James Monger",
+    "email": "jameskmonger@hotmail.co.uk",
+    "url": "http://jamesmonger.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jameskmonger/missing-dependency-error/issues"
+  },
+  "homepage": "https://github.com/Jameskmonger/missing-dependency-error#readme",
+  "devDependencies": {
+    "alsatian": "^1.0.0-alpha.14",
+    "typescript": "^2.0.2"
+  }
+}
