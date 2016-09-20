@@ -31,5 +31,8 @@
   "devDependencies": {
     "alsatian": "^1.0.0-alpha.14",
     "typescript": "^2.0.2"
+  },
+  "dependencies": {
+    "es6-error": "^3.1.0"
   }
 }
