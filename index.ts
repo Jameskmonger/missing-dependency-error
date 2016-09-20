@@ -1,10 +1,7 @@
-export default class MissingDependencyError extends Error {
+import * as ExtendableError from "es6-error";
+
+export default class MissingDependencyError extends ExtendableError {
     constructor (dependencyName: string) {
         super(`Missing dependency: ${dependencyName}`);
-        this.name = "MissingDependencyError";
-
-        console.log(super.message);
-
-        //this.message = `Missing dependency: ${dependencyName}`;
     }
 }
