@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Missing dependency error for TypeScript.",
   "main": "index.js",
+  "files": [
+      "index.js"
+  ],
+  "typings": "typings.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "alsatian \"test.js\""
