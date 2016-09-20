@@ -4,6 +4,7 @@
   "description": "Missing dependency error for TypeScript.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "alsatian \"test.js\""
   },
   "repository": {
